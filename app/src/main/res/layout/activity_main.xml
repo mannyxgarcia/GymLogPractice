@@ -14,9 +14,12 @@
         android:layout_marginTop="16dip"
         android:padding="8dp"
         android:text="Hello World!"
+        app:layout_constraintBottom_toTopOf="@+id/exerciseLabelTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        />
 
     <TextView
         android:id="@+id/exerciseLabelTextView"
